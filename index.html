@@ -11,9 +11,81 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <h2>i am doing assignment</h2>
+    <header class="bg-secondary pb-5">
+        <!-- nav bar  -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo01">
+               
+                <ul class="navbar-nav m-3 ">
+                    <li class="nav-item">
+                      <a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#contract">Contract</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="btn btn-warning ms-5">Login</button>
+                    </li>
+                  </ul>
+                
+              </div>
+            </div>
+          </nav>
 
+          <!-- bike section -->
+          <div class="container overflow-hidden my-4">
+            <div class="row gx-5">
+              <div class="col-lg-6 col-md-6 d-flex mt-5">
+               <div class="p-3 text-white">
+                   <p class="text-danger">Computer-controlled digital transistorized with electronic advance</p>
+                   <h1>Honda CBR 300R</h1>
+                   <p class="text-danger">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                   </p>
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1"                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark text-capitalize"                 id="exampleModalLabel">Read our Terms and Policy                 before purchasing</h5>
+                          <button type="button" class="btn-close"                 data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-black-50">
+                            You are responsible for maintaining the                 confidentiality of your user identification,                 password, account details and related private                 information. You agree to accept this                 responsibility and ensure your account and its                 related details are maintained securely at all                 times and all necessary steps are taken to prevent                 misuse of your account. You should inform us                 immediately if you have any reason to believe that                 your password has become known to anyone else, or                 if the password is being, or is likely to be, used                 in an unauthorized manner. 
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary"                 data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">I                 Agree</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+              </div>
 
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/header-bike.png" alt="">
+              </div>
+            </div>
+          </div>
+    </header>
+
+   
 
 
     <!-- bootstrap JS  -->
