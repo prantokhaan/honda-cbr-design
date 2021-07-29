@@ -9,11 +9,13 @@
     <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="bg-secondary pb-5">
+    <header class="bikestore-header-color pb-5">
         <!-- nav bar  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light bikestore-header-color">
             <div class="container container-fluid">
                 <a href=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +40,7 @@
                       <a class="nav-link text-white" href="#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-warning ms-0 ms-lg-5">Login</button>
+                      <button class="btn bikestore-primary-color text-white ms-0 ms-lg-5">Login</button>
                     </li>
                   </ul>
                 
@@ -51,13 +53,13 @@
             <div class="row gx-5">
               <div class="col-lg-6 col-md-6 d-flex mt-5">
                <div class="p-3 text-white">
-                   <p class="text-danger">Computer-controlled digital transistorized with electronic advance</p>
+                   <p class="bikestore-paragraph-color"><small>The Honda CBR500R is powered by a 471cc parallel-twin liquid-cooled motor </small></p>
                    <h1 class="fs-1">Honda CBR 300R</h1>
-                   <p class="text-danger">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                   <p class="bikestore-paragraph-color mt-3">
+                    <small>Honda Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just gets so many things right.</small> 
                    </p>
                    <!-- Button trigger modal -->
-                   <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   <button type="button" class="btn bikestore-primary-color text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Purchase
                   </button>
                   
@@ -74,7 +76,7 @@
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary"                 data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">I                 Agree</button>
+                          <button type="button" class="btn btn-secondary bikestore-primary-color">I                 Agree</button>
                         </div>
                       </div>
                     </div>
@@ -89,197 +91,198 @@
           </div>
     </header>
 
-    <!-- shop section -->
+   <main>
+      <!-- shop section -->
     <section class="container my-4" id="shop">
-        <div class="text-center py-5">
-            <h1>Fetured Bikes 2021</h1>
-            <p class="fw-bolder text-danger">Best bike collection</p>
+      <div class="text-center py-5">
+          <h1>Featured Bikes 2021</h1>
+          <p class="fw-bolder bikestore-text-color">Best bike collection</p>
+      </div>
+      <div class="container px-4">
+          <div class="row gx-lg-5">
+            <div class="col-lg-4 gy-5 gy-lg-4">
+              <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="" style="filter: grayscale(1);">
+            </div>
+            <div class="col-lg-4 gy-5 gy-lg-4">
+              <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="">
+            </div>
+            <div class="col-lg-4 gy-5 gy-lg-4">
+              <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="" style="filter: grayscale(1);">
+            </div>
+            
+            </div>
+          </div>
         </div>
-        <div class="container px-4">
-            <div class="row gx-lg-5">
-              <div class="col-lg-4 gy-5 gy-lg-4">
-                <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="" style="filter: grayscale(1);">
-              </div>
-              <div class="col-lg-4 gy-5 gy-lg-4">
-                <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="">
-              </div>
-              <div class="col-lg-4 gy-5 gy-lg-4">
-                <img class="img-fluid mb-5" src="images/feature-bike.jpg" alt="" style="filter: grayscale(1);">
-              </div>
-              
-              </div>
-            </div>
-          </div>
-    </section>
+  </section>
 
-    <!-- news section -->
-    <section class="container" id="news">
-        <h1 class="text-center py-4">Latest News</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
-            <div class="col">
-              <div class="card h-100 rounded-2">
-                <img class="image-fluid p-3" src="images/bike-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                  <p class="card-text">Ducati built its reputation on excellently designed OHC single-cylinder bikes of small capacity in the 1950s and ‘60s, but knew the future lay with large-capacity bikes.</p>
-                </div>
-                <div class="p-3">
-                  <button class="btn btn-warning">Read More</button>
-                </div>
+  <!-- news section -->
+  <section class="container" id="news">
+      <h1 class="text-center py-4">Latest News</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+          <div class="col">
+            <div class="card h-100 rounded-2">
+              <img class="image-fluid p-3" src="images/bike-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                <p class="card-text bikestore-secondary-paragraph-color pt-2">Ducati built its reputation on excellently designed OHC single-cylinder bikes of small capacity in the 1950s and ‘60s, but knew the future lay with large-capacity bikes.</p>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 rounded-2">
-                <img class="image-fluid p-3" src="images/bike-2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Motorcycles & Scooters</h5>
-                  <p class="card-text">Get A Better Deal On Bulk Motor Cycle. Quality Motor Cycle. Send Inquiry Now. SGS Audited Suppliers. Quality China Products. China’s B2B Impact Award.</p>
-                </div>
-                <div class="p-3">
-                  <button class="btn border-2 border-warning">Read More</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 rounded-2">
-                <img class="image-fluid p-3" src="images/bike-3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">2021 Honda CBR500R</h5>
-                  <p class="card-text">2021 CBR500R ABS OVERVIEW - Honda Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just gets so many things right</p>
-                </div>
-                <div class="p-3">
-                  <button class="btn border-2 border-warning">Read More</button>
-                </div>
+              <div class="p-3">
+                <button class="btn bikestore-primary-color text-white">Read More</button>
               </div>
             </div>
           </div>
-    </section>
-   
-    <!-- review section -->
-    <section class="container container-fluid overflow-hidden text-center py-5 mt-5" id="reviews">
-        <h1>Happy <span class="text-warning">Client Says</span></h1>
-        <div class="row row-cols-1 row-cols-md-3 g-5 my-5">
-            <div class="col">
-              <div class="card h-100 border-2">
-                <img class="mx-auto d-block mt-5" src="images/user-1.png" class="card-img-top" alt="..." width="149" height="149">
-                <div class="card-body">
-                  <p class="card-text px-3 pt-3">It is very comfortable for city drive safely and securely every day am driving 50 km. My only problem am not able to understand stand feul reading easily.</p>
-                  <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="far fa-star"></i></li>
-                  </ul>
-                  <h5 class="text-primary">Regina Miles</h5>
-                  <h6 class="pb-2">
-                      Banker
-                  </h6>
-                </div>
+          <div class="col">
+            <div class="card h-100 rounded-2">
+              <img class="image-fluid p-3" src="images/bike-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Motorcycles & Scooters</h5>
+                <p class="card-text bikestore-secondary-paragraph-color pt-2">Get A Better Deal On Bulk Motor Cycle. Quality Motor Cycle. Send Inquiry Now. SGS Audited Suppliers. Quality China Products. China’s B2B Impact Award.</p>
+              </div>
+              <div class="p-3">
+                <button class="btn border-2 bikestore-border-color bikestore-text-color">Read More</button>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100 border-2">
-                <img class="mx-auto d-block mt-5" src="images/user-2.png" class="card-img-top" alt="..." width="149" height="149">
-                <div class="card-body">
-                  <p class="card-text px-3 pt-3">Its very comfortable to ride and performance is best always cause its bs4 model bike bs6 is bad if you lauch the same as the bike want then it'll fly. That's my recommadation.</p>
-                  <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="far fa-star"></i></li>
-                  </ul>
-                  <h5 class="text-primary">Mirana Clint</h5>
-                  <h6 class="pb-2">
-                      Traveller
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 border-2">
-                <img class="mx-auto d-block mt-5 rounded-circle" src="images/user-3.jpg" class="card-img-top" alt="..." width="149" height="149">
-                <div class="card-body">
-                  <p class="card-text px-3 pt-3">The only disappointing point I observe in this vehicle is that the their service centers are always ready to bite you at your bum if you dare to show your problm</p>
-                  <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="fas fa-star"></i></li>
-                      <li class="list-inline-item text-warning"><i class="far fa-star"></i></li>
-                  </ul>
-                  <h5 class="text-primary">Sarah Ilaix</h5>
-                  <h6 class="pb-2">
-                      Designer
-                  </h6>
-                </div>
-              </div>
-            </div>
-            
-            
           </div>
-    </section>
+          <div class="col">
+            <div class="card h-100 rounded-2">
+              <img class="image-fluid p-3" src="images/bike-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2021 Honda CBR500R</h5>
+                <p class="card-text bikestore-secondary-paragraph-color pt-2">2021 CBR500R ABS OVERVIEW - Honda Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just gets so many things right</p>
+              </div>
+              <div class="p-3">
+                <button class="btn border-2 bikestore-border-color bikestore-text-color">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+ 
+  <!-- review section -->
+  <section class="container container-fluid overflow-hidden text-center py-5 mt-5" id="reviews">
+      <h1>Happy <span class="bikestore-text-color">Client Says</span></h1>
+      <div class="row row-cols-1 row-cols-md-3 g-5 my-5">
+          <div class="col">
+            <div class="card h-100 border-2">
+              <img class="mx-auto d-block mt-5" src="images/user-1.png" class="card-img-top" alt="..." width="149" height="149">
+              <div class="card-body">
+                <p class="card-text px-3 pt-3 bikestore-secondary-paragraph-color">It is very comfortable for city drive safely and securely every day am driving 50 km. My only problem am not able to understand stand feul reading easily.</p>
+                <ul class="list-unstyled list-inline ">
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="far fa-star"></i></li>
+                </ul>
+                <h5 class="bikestore-third-color">Regina Miles</h5>
+                <h6 class="pb-2">
+                    Banker
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-2">
+              <img class="mx-auto d-block mt-5" src="images/user-2.png" class="card-img-top" alt="..." width="149" height="149">
+              <div class="card-body">
+                <p class="card-text px-3 pt-3 bikestore-secondary-paragraph-color">Its very comfortable to ride and performance is best always cause its bs4 model bike bs6 is bad if you lauch the same as the bike want then it'll fly. That's my recommadation.</p>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="far fa-star"></i></li>
+                </ul>
+                <h5 class="bikestore-third-color">Mirana Clint</h5>
+                <h6 class="pb-2">
+                    Traveller
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-2">
+              <img class="mx-auto d-block mt-5 rounded-circle" src="images/user-3.jpg" class="card-img-top" alt="..." width="149" height="149">
+              <div class="card-body">
+                <p class="card-text px-3 pt-3 bikestore-secondary-paragraph-color">The only disappointing point I observe in this vehicle is that the their service centers are always ready to bite you at your bum if you dare to show your problm</p>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="fas fa-star"></i></li>
+                    <li class="list-inline-item bikestore-text-color"><i class="far fa-star"></i></li>
+                </ul>
+                <h5 class="bikestore-third-color">Sarah Ilaix</h5>
+                <h6 class="pb-2">
+                    Designer
+                </h6>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+  </section>
 
-    <!-- faq section -->
-    <section class="container overflow-hidden" id="faq">
-      <h1 class="text-center pb-4">Frequently Asked <span class="text-warning">Questions</span></h1>
-      <div class="container py-5 px-5">
-        <div class="row gy-5 gy-lg-3">
-          <div class="col-lg-6 col-sm-12">
-           <img class="img-fluid" src="images/faq.png" alt="" width="350" height="320">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    What are the most important things I should
-                    know about riding a bike?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
-                  </div>
+  <!-- faq section -->
+  <section class="container overflow-hidden pb-4" id="faq">
+    <h1 class="text-center pb-4">Frequently Asked <span class="bikestore-text-color">Questions</span></h1>
+    <div class="container py-5 px-5">
+      <div class="row gy-5 gy-lg-3">
+        <div class="col-lg-6 col-sm-12">
+         <img class="img-fluid" src="images/faq.png" alt="" width="350" height="320">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  What are the most important things I should
+                  know about riding a bike?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body bikestore-fourth-color">
+                  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed  fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    When should I replace my Helmet?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                    Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
-                  </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed  fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  When should I replace my Helmet?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body bikestore-fourth-color">
+                  Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    My bike has been in storage—is it safe to ride?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    Before going on a long ride, take your bike around the block and make sure it is safe to ride.
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  My bike has been in storage—is it safe to ride?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body bikestore-fourth-color">
+                  Before going on a long ride, take your bike around the block and make sure it is safe to ride.
 
-                    First of all, your tires are going to be deflated, it is normal after long periods of time on storage. Inflate them close to the recommended level, you can find that in the wall of the tire.
-                    Make sure your brakes work. First do it off your bike, make sure the brake pads make contact with the rim or the rotor appropriately. Then do it with while riding your bike around the block. Make sure you test it with enough speed, but do it safely. It is common for cables to stretch and for air to build up in hydraulic brakes.
-                  </div>
+                  First of all, your tires are going to be deflated, it is normal after long periods of time on storage. Inflate them close to the recommended level, you can find that in the wall of the tire.
+                  Make sure your brakes work. First do it off your bike, make sure the brake pads make contact with the rim or the rotor appropriately. Then do it with while riding your bike around the block. Make sure you test it with enough speed, but do it safely. It is common for cables to stretch and for air to build up in hydraulic brakes.
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    What rules should I follow when riding my bike?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    When riding, always:
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  What rules should I follow when riding my bike?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body bikestore-fourth-color">
+                  When riding, always:
 Go With the Traffic Flow. Ride on the right in the same direction as other vehicles. ...
 Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. ...
 Yield to Traffic When Appropriate. ...
@@ -287,68 +290,173 @@ Be Predictable. ...
 Stay Alert at All Times. ...
 Look Before Turning. ...
 Watch for Parked Cars.
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-    </section>
+    </div>
+    
+  </section>
 
-    <!-- advantage section -->
-    <section class="container overflow-hidden">
-      <h1 class="text-center">Advantages</h1>
-      <h6 class="text-capitalize text-center text-danger pb-5">if you purchase from us.</h6>
+  <!-- advantage section -->
+  <section class="container overflow-hidden">
+    <h1 class="text-center">Advantages</h1>
+    <h6 class="text-capitalize text-center bikestore-text-color pb-5">if you purchase from us.</h6>
 
-      <div class="row row-cols-1 row-cols-md-3 pb-5 gy-5 gy-lg-3">
-        <div class="col-12 col-lg-4">
-          <div class="card h-100 text-center border border-3 text-warning ">
-            <div class="text-center fs-1 pt-4"><i class="fas fa-tools"></i></div>
-            <div class="card-body">
-              <h5 class="card-title fs-3 fw-bolder">Repair</h5>
-              <p class="card-text text-black-50 mt-4">You can repair your motorcycle for free here anytime within 1 year of purchase. You will get huge discounts on our all services after 1 year.</p>
-            </div>
-            <div class="">
-              <button class="btn bg-warning px-3 py-2 border border-2  text-white fw-normal border-warning rounded-pill my-3">
-                Learn More
-              </button>
-            </div>
+    <div class="row row-cols-1 row-cols-md-3 pb-5 gy-5 gy-lg-3">
+      <div class="col-12 col-lg-4">
+        <div class="card h-100 text-center border border-3 bikestore-text-color">
+          <div class="text-center fs-1 pt-4"><i class="fas fa-tools"></i></div>
+          <div class="card-body">
+            <h5 class="card-title fs-3 fw-bolder">Repair</h5>
+            <p class="card-text bikestore-fourth-color mt-4">You can repair your motorcycle for free here anytime within 1 year of purchase. You will get huge discounts on our all services after 1 year.</p>
+          </div>
+          <div class="">
+            <button class="btn bikestore-primary-color px-3 py-2 border border-2  text-white fw-normal bikestore-border-color rounded-pill my-3">
+              Learn More
+            </button>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
-          <div class="card h-100 text-center bg-warning border border-3 border-warning text-white">
-            <div class="text-center fs-1 pt-4"><i class="fas fa-truck"></i></div>
-            <div class="card-body">
-              <h5 class="card-title fs-3 fw-bolder">Shipping</h5>
-              <p class="card-text text-white mt-4">Here you can get free shipping. You have not to pay any charge for getting delivery of your motorcycle</p>
-            </div>
-            <div class="">
-              <button class="btn bg-white px-3 py-2 border border-2  text-warning fw-normal border-warning rounded-pill my-3">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="card h-100 text-center border border-3 text-warning">
-            <div class="text-center fs-1 pt-4"><i class="fas fa-percent"></i></div>
-            <div class="card-body">
-              <h5 class="card-title fs-3 fw-bolder">Discount</h5>
-              <p class="card-text text-black-50 mt-4">You can get a premium membership card by purchasing two motorcycles. The premium members enjoy up to 30% discount on our any outlet or on any products</p>
-            </div>
-            <div class="">
-              <button class="btn bg-warning px-3 py-2 border border-2  text-white fw-normal border-warning rounded-pill my-3">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-        
       </div>
+      <div class="col-12 col-lg-4">
+        <div class="card h-100 text-center bikestore-primary-color border border-3 bikestore-border-color text-white">
+          <div class="text-center fs-1 pt-4"><i class="fas fa-truck"></i></div>
+          <div class="card-body">
+            <h5 class="card-title fs-3 fw-bolder">Shipping</h5>
+            <p class="card-text text-white mt-4">Here you can get free shipping. You have not to pay any charge for getting delivery of your motorcycle</p>
+          </div>
+          <div class="">
+            <button class="btn bg-white px-3 py-2 border border-2  bikestore-text-color fw-normal bikestore-border-color rounded-pill my-3">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card h-100 text-center border border-3 bikestore-text-color">
+          <div class="text-center fs-1 pt-4 bikestore-text-color"><i class="fas fa-percent"></i></div>
+          <div class="card-body">
+            <h5 class="card-title fs-3 fw-bolder">Discount</h5>
+            <p class="card-text bikestore-fourth-color mt-4">You can get a premium membership card by purchasing two motorcycles. The premium members enjoy up to 30% discount on our any outlet or on any products</p>
+          </div>
+          <div class="">
+            <button class="btn bikestore-primary-color px-3 py-2 border border-2  text-white fw-normal bikestore-border-color rounded-pill my-3">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
 
-    </section>
+  </section>
+
+  <!-- brand section -->
+  <section class="container py-5 overflow-hidden">
+    <h1 class="text-center"> Browse by <span class="bikestore-text-color">Brand</span></h1>
+    <div class="py-5">
+      <div class="row row-cols-2 row-cols-lg-5 g-5 g-lg-5">
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="#">
+                <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-1.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href=""><img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-2.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="">
+                <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-3.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+             <a href="">
+              <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-4.png" alt="">
+             </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+             <a href="">
+              <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-5.png" alt="">
+             </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="">
+                <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-6.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href=""><img class="img-fluid rounded mx-auto d-block pt-1" src="images/brands/brand-7.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="">
+                <img class="img-fluid rounded mx-auto d-block pt-1" src="images/brands/brand-8.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="">
+                <img class="img-fluid rounded mx-auto d-block pt-0" src="images/brands/brand-9.png" alt="">
+              </a>
+
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href="">
+                <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-10.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+              <a href=""><img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-11.png" alt="">
+              </a>
+              
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="p-3">
+             <a href="">
+              <img class="img-fluid rounded mx-auto d-block" src="images/brands/brand-12.png" alt="">
+             </a>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   </main>
+
 
 
     <!-- bootstrap JS  -->
